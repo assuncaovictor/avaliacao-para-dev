@@ -1,0 +1,16 @@
+{
+    "name": "assuncaovictor/leilao",
+    "description": "Projeto de CRUD criado para a entrevista na empresa Confiança Leilões. A atividade demanda de uso do MVC junto as tecnologias PHP, MySQL, Bootstrap e Git.",
+    "autoload": {
+        "psr-4": {
+            "Assuncaovictor\\Leilao\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Victor Assunção Melo",
+            "email": "victorassuncao3382@gmail.com"
+        }
+    ],
+    "require": {}
+}
