@@ -8,14 +8,14 @@ drop database if exists confianca_leiloes;
 create database confianca_leiloes char set utf8mb4 collate utf8mb4_unicode_ci default collate utf8mb4_unicode_ci;
 use confianca_leiloes;
 
-create table if not exists clientes(
-id bigint auto_increment not null,
-nome varchar(70) not null,
-telefone bigint not null,
-email varchar(255) not null,
-data date not null,
-constraint PK_clientes primary key (id)
-)engine=InnoDB character set=utf8mb4 collate=utf8mb4_unicode_ci;
+        create table if not exists clientes(
+        id bigint auto_increment not null,
+        nome varchar(70) not null,
+        telefone bigint not null,
+        email varchar(255) not null,
+        data date not null,
+        constraint PK_clientes primary key (id)
+        )engine=InnoDB character set=utf8mb4 collate=utf8mb4_unicode_ci;
 
 ### Em seguida é necessário fazer as seguintes configurações no arquivo ConnectDatabase.php, localizado em src/Infra:
 
