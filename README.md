@@ -30,7 +30,7 @@
         $usuario = "root";
 
         // A senha do usuário que vai realizar a conexão
-        $senha = "null";
+        $senha = null;
 
 ### Para rodar o site basta entrar na pasta com o termal e digitar o seguinte comando:
 
