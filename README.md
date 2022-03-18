@@ -4,10 +4,6 @@
 
 ### Para o aplicativo funcionar é necessário que o banco de dados confianca_leiloes exista no servidor, para tal deve-se rodar os seguinte comandos no MySQL:
 
-drop database if exists confianca_leiloes;
-create database confianca_leiloes char set utf8mb4 collate utf8mb4_unicode_ci default collate utf8mb4_unicode_ci;
-use confianca_leiloes;
-
         drop database if exists confianca_leiloes;
         create database confianca_leiloes char set utf8mb4 collate utf8mb4_unicode_ci default collate utf8mb4_unicode_ci;
         use confianca_leiloes;
