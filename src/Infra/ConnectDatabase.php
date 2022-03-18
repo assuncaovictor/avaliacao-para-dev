@@ -21,7 +21,7 @@ class ConnectDatabase
         $usuario = "root";
 
         // A senha do usuário que vai realizar a conexão
-        $senha = "null";
+        $senha = null;
 
         $connection = new PDO(
             "mysql:host=$host;dbname=$dbnome;charset=utf8mb4",

@@ -23,23 +23,22 @@
                 </tr>
             <?php } ?>
         </tbody>
-        <tfoot class="paginacao">
-
-            <?php
-            $voltar = "<a href='?pag=" . $_GET['pag'] - 1 . "'>Voltar</a>";
-            $avancar = "<a href='?pag=" . $_GET['pag'] + 1 . "'>Avançar</a";
-            ?>
-
-            <?= $dados['voltar'] ? $voltar : '' ?>
-
-            <?php if ((!$voltar and !$avancar)) { ?>
-                <a href=""><?= $_GET['pag'] ?></a>
-            <?php } ?>
-
-            <?= $dados['avancar'] ? $avancar : '' ?>
-
-        </tfoot>
     </table>
+    <div class="paginacao">
+
+        <?php
+        $voltar = "<a href='?pag=" . $_GET['pag'] - 1 . "'>Voltar</a>";
+        $avancar = "<a href='?pag=" . $_GET['pag'] + 1 . "'>Avançar</a";
+        ?>
+
+        <?= $dados['voltar'] ? $voltar : '' ?>
+
+        <?php if ((!$voltar and !$avancar)) { ?>
+            <a href=""><?= $_GET['pag'] ?></a>
+        <?php } ?>
+
+        <?= $dados['avancar'] ? $avancar : '' ?>
+    </div>
 <?php } else { ?>
     <div>
         <span>Nenhum usuário cadastrados</span>
