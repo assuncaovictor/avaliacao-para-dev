@@ -32,7 +32,7 @@
         // A senha do usuário que vai realizar a conexão
         $senha = null;
 
-### Para rodar o site basta entrar na pasta com o termal e digitar o seguinte comando:
+### Para rodar o site basta entrar na pasta com o terminal e digitar o seguinte comando:
 
 php -S localhost:8080 -t public
 
